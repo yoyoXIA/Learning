@@ -1,0 +1,46 @@
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/* common css */
+.clearfix {
+	content: ' ';
+	display: block;
+	clear: both;
+}
+.button {
+	display: inline-block;
+	padding: 20px 40px;
+	border-radius: 3px;
+	font-size: 18px;
+	opacity: 0.9;
+	color: #fff;
+	font-weight: bold;
+	font-family: Montserrat;
+	letter-spacing: none;
+	background-color: rgb(250,209,54);
+}
+.button:hover {
+	opacity: 1;
+}
+body {
+	font: 14px/1.5 Arial;
+	color: #444;
+	letter-spacing: .3px;
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+	background: rgb(247,247,247);
+}

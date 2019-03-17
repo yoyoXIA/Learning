@@ -1,0 +1,328 @@
+html,
+body {
+	height: 100%;
+}
+header {
+	width: 100%;
+	height: 100%;
+	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1552661986587&di=5c0a5c3f49642e811e1611ec3ffa1ad6&imgtype=0&src=http%3A%2F%2Fbdn.135editor.com%2Ffiles%2Fusers%2F470%2F4707312%2F201807%2Fdn7VaUFU_ADIK.jpg) center center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+nav {
+	padding: 30px 30px 0;
+}
+nav > a {
+	float: left;
+	font-size: 36px;
+	font-family: Times;
+	color: #fff;
+}
+nav .navbar {
+	float: right;
+}
+nav .navbar li {
+	float:left;
+
+}
+nav .navbar a {
+	padding: 10px 15px;
+	color: white;
+	font-size: 14px;
+}
+nav .navbar a:hover {
+	padding: 10px 15px;
+	color: black;
+	background: yellow;
+	border-radius: 3px;
+}
+.intro {
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.intro h2 {
+	font-size: 30px;
+	margin-top: 40px;
+}
+.intro h1 {
+	font-size: 44px;
+	white-space: nowrap;
+	margin: 10px 0 40px;
+}
+section {
+	width:1100px;
+	text-align: center;
+	margin:0 auto;
+	padding: 130px 0;
+}
+section > h2 {
+	font-size: 40px;
+	line-height: 60px;
+}
+section > p {
+	font-style: italic;
+	line-height:40px;
+	margin-bottom: 60px;
+  font-size: 16px;
+}
+section > dl {
+	float: left;
+	width: calc(33.33% - 20px);
+	margin: 0 10px;
+}
+section > dl .iconfont {
+	font-size: 70px;
+  color: rgb(254,209,54,.8);
+}
+section >dl dt {
+  font-weight: bold;
+  font-size:18px;
+  margin: 10px 0;
+}
+section:after {
+	content: ' ';
+	display: block;
+	clear: both;
+}
+section > figure {
+  position: relative;
+	float: left;
+	width: calc(33.33% - 20px);
+	margin: 0 10px 20px;
+	background: #fff; 		
+}
+section > figure a {
+  width: 100%;
+  height: 220px;
+  position: relative;
+  display: block;
+}
+section > figure figcaption {
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 15px;
+}
+figure .Inter-hover {
+  position: absolute;
+  background: rgba(254,209,54,.8);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 10;
+  transition: all ease .5s;
+}
+figure .Inter-hover .icon-plus1 {
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  z-index: 100;
+  margin-top: -25px;
+  margin-left: -25px;
+  color: #fff;
+  font-weight: bold; 
+}
+figure .Inter-hover:hover {
+  opacity: 1;
+}
+section > figure img {
+  position: relative;
+	width: 100%;
+	height: 220px;
+}
+section > figure p {
+	margin-bottom:20px;
+	font-style: italic;
+  font-size: 16px;
+}
+section .timeline {
+  width: 50%;
+  margin: 0;
+  height: 300px;
+  box-sizing: content-box;
+}
+/*.about .timeline:nth-child(odd) {
+  margin-right: calc(50%-50px);
+}*/
+section .timeline:nth-child(odd) {
+  float:left;
+  border-right: 3px solid #f1f1f1;
+  margin-right: 7px;
+}
+section .timeline:nth-child(even) {
+  float:right;
+  border-left: 3px solid #f1f1f1;
+  margin-left: 7px;
+}
+section .timeline:last-child {
+  border: none;
+  height: 180px;
+}
+section .timeline:nth-child(odd) dl {
+  float: right;
+  width: 70%;
+  text-align: right;
+  padding-right: 30px;
+}
+section .timeline:nth-child(even) dl {
+  float: left;
+  width: 70%;
+  text-align: left;
+  padding-left: 30px;
+}
+section .timeline:nth-child(odd) img {
+  margin-right: -80px;
+  float: right;
+}
+section .timeline:nth-child(even) img {
+  margin-left: -80px;
+  float:left;
+}
+section .timeline img,
+section .timeline h4 {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border:7px solid #f1f1f1;
+}
+section .timeline:nth-child(odd) h4 {
+  margin-right: -80px;
+  float: right;
+  padding: 0;
+  font-size: 40px;
+  background: rgb(247,209,54);
+  color: #fff;
+  padding-top: 10px;
+}
+section .timeline dt {
+  margin: 0;
+}
+section .timeline dd {
+  margin-top: 5px;
+}
+.frame figure {
+  background: none;
+}
+.frame figure img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 10px solid #fff;
+}
+.frame figure p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.frame figure .iconfont,
+footer .iconfont {
+  font-size: 40px;
+  margin: 0 5px;
+}
+footer .iconfont {
+  vertical-align: middle;
+}
+.frame figure .iconfont:hover,
+footer .iconfont:hover {
+  color: rgb(257,209,54);
+}
+.frame h4 {
+  font-size: 16px;
+  font-weight: normal;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.learning-site {
+  padding: 15px 0;
+  width: 1100px;
+}
+.learning-site img {
+  width: 20%;
+  margin: 0 20px;
+  vertical-align: middle;
+}
+.contact {
+  background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1552763224975&di=57035e852f2ff95fd87a7a33447f8c3d&imgtype=0&src=http%3A%2F%2Fs1.sinaimg.cn%2Fmw690%2F006wPBECzy7bCVkk2ac00%26690) no-repeat center center;
+  background-size: cover;
+}
+.contact section {
+  height: 740px;
+  color: #fff;
+}
+.contact section form {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contact section .detail {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+.contact section .message {
+  float: left;
+  width: 50%;
+}
+.contact section .detail input {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  border: none;
+  box-shadow: 1px -1px 1px #ccc,-1px 1px 1px #ccc,1px 1px 1px #ccc,-1px -1px 1px #ccc;
+}
+.contact section .detail input:focus,
+.contact section .message textarea:focus {
+  outline: none;
+  box-shadow: 1px -1px 2px rgb(170,140,36),-1px 1px 2px rgb(170,140,36),1px 1px 2px rgb(170,140,36),-1px -1px 2px rgb(170,140,36);
+}
+.contact input::-webkit-input-placeholder,
+.contact textarea::-webkit-input-placeholder {
+  font-weight: bold;
+  color: #999;
+}
+.contact textarea::-webkit-input-placeholder {
+  font-family: Arial;
+}
+.contact section .message textarea {
+  width: 100%;
+  padding: 20px;
+  height: 215px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px -1px 1px #ccc,-1px 1px 1px #ccc,1px 1px 1px #ccc,-1px -1px 1px #ccc;
+}
+.contact section a {
+  display: block;
+  margin: 0 auto;
+  width: 240px;
+  text-align: center;
+}
+footer {
+  margin: 20px 50px;
+  text-align: center;
+}
+footer > span {
+  width: calc(33.33%-50px);
+  margin: 0 100px;
+}
+footer .icon-logo {
+  display: inline-block;
+  width: calc(33.33%-50px);
+  margin: 0 100px;
+}
+footer >span a {
+  color: rgb(254,209,54);
+  padding: 0 5px;
+}
+footer > span a:hover {
+  text-decoration: underline;
+}
